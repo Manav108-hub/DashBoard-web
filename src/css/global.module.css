@@ -1,0 +1,20 @@
+/* Basic button styling */
+.button {
+    background-color: #4CAF50;  /* Green background */
+    border: none;               /* No borders */
+    color: white;               /* White text */
+    padding: 15px 32px;         /* Padding for size */
+    text-align: center;         /* Centered text */
+    text-decoration: none;      /* No underline */
+    display: inline-block;      /* Inline element with block properties */
+    font-size: 16px;            /* Text size */
+    margin: 4px 2px;            /* Some margin */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;  /* Smooth transition */
+  }
+  
+  /* Hover state for the button */
+  .button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+  }
+  
