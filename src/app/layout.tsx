@@ -21,11 +21,12 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>)
+ {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`m-0 font-sans text-base antialiased font-normal leading-default bg-gray-50 text-slate-500`}
       >
         {children}
       </body>
